@@ -16,6 +16,9 @@
     "test": "jest --testPathPattern tests/*.test.{ts,tsx} --coverage"
   },
   "peerDependencies": {
+    "react": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
     "zen-observable": "^0.8.14"
   },
   "devDependencies": {
@@ -34,10 +37,7 @@
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
     "jest": "^24.8.0",
-    "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-redux": "^7.1.1",
-    "redux": "^4.0.4",
     "ts-jest": "^24.0.2",
     "typescript": "3.6",
     "zen-observable": "^0.8.14"
